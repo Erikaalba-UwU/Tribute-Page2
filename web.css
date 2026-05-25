@@ -58,10 +58,7 @@
 
   iframe{
     width: 100%;
-    max-width: 700px;
-    Display: Flex;
-    align-items: Center;
-    Justify-content: Center;
+    max-width: 1700px;
   }
 
   @media screen and (max-width: 800px) {
