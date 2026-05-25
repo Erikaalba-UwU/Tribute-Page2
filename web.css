@@ -61,7 +61,7 @@
   }
 
   @media screen and (max-width: 800px) {
-    iframe, #image, main{
+    body{
       width: 100%;
     }
   }
