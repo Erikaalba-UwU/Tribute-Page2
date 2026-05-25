@@ -60,3 +60,8 @@
     margin-left: 50px;
   }
 
+  @media screen and (max-width: 800px) {
+    iframe, #image, main{
+      width: 100%;
+    }
+  }
