@@ -58,7 +58,8 @@
 
   iframe{
     width: 100%;
-    min-width: 700px;
+    min-width: 1700px;
+    min-height: 100vh;
   }
 
   @media screen and (max-width: 800px) {
