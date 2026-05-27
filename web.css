@@ -27,10 +27,8 @@ h2, h3, h4, h5{
 }
 
 h1{
-  font-size: 40px;
-  
+  font-size: 40px; 
 }
-
 p, li{
   text-align: justify;
   font-size: 20px;
@@ -44,12 +42,12 @@ figcaption, footer{
 footer, footer a {
   font-size: 20px;
   color:#301C04; 
-
 }
-
 #last{
   font-size: 25px;
 }
+
+
 /* Mobile */
   @media (max-width: 768px) {
   main {
