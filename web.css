@@ -64,7 +64,7 @@
 /* Mobile */
   @media (max-width: 768px) {
   * {
-    margin-left: 35px;
+    margin-left: 20px;
     text-align: center;
   }
   main {
