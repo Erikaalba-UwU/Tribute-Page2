@@ -63,7 +63,7 @@
   }
 /* Mobile */
   @media (max-width: 768px) {
-   main {
+   main > *{
     margin-left: 40px;
     margin-right: auto;
     
