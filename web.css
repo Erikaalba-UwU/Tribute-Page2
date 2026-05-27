@@ -5,8 +5,12 @@
     display: block;                     
   }
   body {
-  background-image: url('https://i.pinimg.com/736x/fe/78/b5/fe78b52c9cb94ad7ff2098ac4644b8ca.jpg');
-  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('https://i.pinimg.com/736x/fe/78/b5/fe78b52c9cb94ad7ff2098ac4644b8ca.jpg') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   }
   
   main{
@@ -61,12 +65,24 @@
     width: 100%;
     
   }
-
-  @media screen and (max-width: 800px) {
-      h1, h2, h3, h4, h5, p, figcaption, li {
-        font-size: 15px;
-      }
-    body{
-      margin: auto;
+/* Mobile */
+  @media (max-width: 768px) {
+  * {
+    padding: 15px;
+  }
+  main {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  h2, h3, h4, h5 {
+    font-size: 20px;
+  }
+  p, li {
+    font-size: 15px;
   }
   }
+  
+      
+    
+      
