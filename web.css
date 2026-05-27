@@ -48,8 +48,12 @@ footer, footer a {
 }
 
 iframe{
-  aspect-ratio: 16 / 9;
   width: 100%;
+  aspect-ratio: 16 / 9;
+  max-width: 1200px;
+  display: block;
+  margin: auto;
+  border: none;
 }
 
 /* Mobile */
