@@ -67,17 +67,8 @@
   }
 /* Mobile */
   @media (max-width: 768px) {
-    main {
-    display: flex;
-    flex-direction: column;
-
-    justify-content: center;
-    align-items: center;
-
-    text-align: center;
-
-    width: 100%;
-      padding-left: 50px;
+    * {
+    padding-left: 50px;
    }
   h2, h3, h4, h5 {
     font-size: 20px;
