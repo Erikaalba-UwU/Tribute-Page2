@@ -48,9 +48,10 @@ footer, footer a {
 }
 
 iframe{
+  aspect-ratio: 16 / 9;
   width: 100%;
   max-width: 1000px;
-  margin: 40px auto;
+  display: block;
 }
 
 /* Mobile */
