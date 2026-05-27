@@ -63,10 +63,10 @@
   }
 /* Mobile */
   @media (max-width: 768px) {
-   main > * {
-    margin-left: auto;
+   main {
+    margin-left: 40px;
     margin-right: auto;
-    width: 100%;
+    
   }
   h2, h3, h4, h5 {
     font-size: 20px;
