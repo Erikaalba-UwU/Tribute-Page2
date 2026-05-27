@@ -51,7 +51,7 @@ footer, footer a {
 /* Mobile */
   @media (max-width: 768px) {
   main {
-      padding: 30px;
+      padding: 5px;
     }
   p,
   li,
