@@ -64,8 +64,10 @@
 /* Mobile */
   @media (max-width: 768px) {
    main > *{
-    margin-left: 40px;
-    margin-right: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
     
   }
   h2, h3, h4, h5 {
