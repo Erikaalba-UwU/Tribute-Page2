@@ -1,8 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
   #image{
     width: 100%;
     max-width: 900px;
@@ -67,6 +63,9 @@
   }
 /* Mobile */
   @media (max-width: 768px) {
+    *{
+      padding: 30px;
+    }
   p,
   li,
   figcaption,
