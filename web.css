@@ -5,7 +5,8 @@
     display: block;                     
   }
   body {
-  background-image: url('https://i.pinimg.com/736x/fe/78/b5/fe78b52c9cb94ad7ff2098ac4644b8ca.jpg') center/cover no-repeat;
+  background-image: url('https://i.pinimg.com/736x/fe/78/b5/fe78b52c9cb94ad7ff2098ac4644b8ca.jpg');
+  background-size: cover;
   }
   
   main{
@@ -69,10 +70,15 @@
   }
   h2, h3, h4, h5 {
     font-size: 20px;
+    text-align: center;
   }
   p, li {
     font-size: 15px;
+    text-align: center;
   }
+    figcaption, footer, footer a, h1{
+      text-align: center;
+    }
   }
   
       
