@@ -64,8 +64,7 @@
 /* Mobile */
   @media (max-width: 768px) {
   * {
-    margin-left: 20px;
-    text-align: center;
+    margin-left: 10px;
   }
   main {
     display: flex;
