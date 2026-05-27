@@ -64,7 +64,8 @@
 /* Mobile */
   @media (max-width: 768px) {
   * {
-    margin-left: 10px;
+    margin-left: 5px;
+    text-align: center;
   }
   main {
     display: flex;
@@ -79,11 +80,6 @@
     font-size: 15px;
     
   }
-    figcaption, footer, footer a, h1{
-      text-align: center;
-    }
-  }
-  
       
     
       
