@@ -36,7 +36,7 @@
   }
   
   p, li{
-    text-align: justify;
+    text-align: center;
     font-size: 20px;
     color: #382005;
   }
@@ -44,13 +44,13 @@
     text-align: center;
     color: #382005;
     font-size: 17px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: 20px auto;
+    padding: 0 15px;
 
   }
   
   footer, footer a {
-    text-align: justify;
+    text-align: center;
     font-size: 25px;
     color:#301C04; 
   
@@ -67,12 +67,26 @@
   }
 /* Mobile */
   @media (max-width: 768px) {
+  p,
+  li,
+  figcaption,
+  footer,
+  footer a {
+    text-align: center;
+  }
+    
   h2, h3, h4, h5 {
     font-size: 20px;
     
   }
-  p, li, figcaption, footer, footer a,{
+  p, li, figcaption, footer, footer a{
     font-size: 15px;   
+  }
+
+  figcaption {
+    margin: 20px auto;
+    padding: 0 10px;
+    text-align: center;
   }
   
   } 
