@@ -63,7 +63,7 @@
   }
 /* Mobile */
   @media (max-width: 768px) {
-     main > * {
+     main {
      display: flex;
     flex-direction: column;
 
