@@ -63,9 +63,6 @@
   }
 /* Mobile */
   @media (max-width: 768px) {
-  * {
-    margin-right: 50px;
-  }
   main {
     display: flex;
     gap: 20px;
